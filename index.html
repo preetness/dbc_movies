@@ -5,30 +5,53 @@
 </head>
 <body>
   <h1>Great Movies You Might Have Never Heard Of</h1>
-    <p>Being a big fan of cinema, I watch many movies every year. Some produced that year, some that I might have missed from the past. This is a small collection of some excellent, under the radar movies that I watched in 2016:</p>
-    <img src="images/10_cloverfield.jpg" height="250" width="250" alt="10 Cloverfield Lane">
-    <img src="images/thehunt.jpg" height="250" width="250" alt="The Hunt">
-    <img src="images/thewave.jpg" height="250" width="250" alt="The Wave">
-    <img src="images/hologram_king.jpg" height="250" width="250" alt="A Hologram for the King">
-    <img src="images/jiro.jpg" height="250" width="250" alt="Jiro Dreams of Sushi">
-    <img src="images/fundamentals_caring.jpg" height="250" width="250" alt="The Fundamentals of Caring">
-    <img src="images/the_invitation.jpg" height="250" width="250" alt="The Invitation">
-    <img src="images/man_called_ove.jpg" height="250" width="250" alt="A Man Called Ove">
-    <img src="images/imperium.jpg" height="250" width="250" alt="Imperium">
-    <img src="images/the_guest.jpg" height="250" width="250" alt="The Guest">
-    <img src="images/krisha.jpg" height="250" width="250" alt="Krisha">
+
+    <p>Being a big fan of cinema, I watch many movies every year. Some produced that year, some that I might have missed from the past. This is a small collection of some excellent, under the radar movies that I watched in 2016. The criteria that I used to select these movies include:</p>
+
     <ul>
-        <li>10 Cloverfield Lane</li>
-        <li>The Hunt</li>
-        <li>The Wave</li>
-        <li>A Hologram for the King</li>
-        <li>Jiro Dreams of Sushi</li>
-        <li>The Fundamentals of Caring</li>
-        <li>The Invitation</li>
-        <li>A Man Called Ove</li>
-        <li>Imperium</li>
-        <li>The Guest</li>
-        <li>Krisha</li>
+      <li>The film cannot have grossed more than $5 million at the box office</li>
+      <li>It must have a Rotten Tomatoes critic rating of at least 70%</li>
+      <li>It must have been released in the past 5 years</li>
     </ul>
+      <p>Here are the movies that made the cut:</p>
+    <a href="https://www.rottentomatoes.com/m/the_hunt_2013"><img src="images/thehunt.jpg" height="250" width="250" alt="The Hunt"></a>
+    <a href="https://www.rottentomatoes.com/m/the_wave_2016"><img src="images/thewave.jpg" height="250" width="250" alt="The Wave"></a>
+    <a href="https://www.rottentomatoes.com/m/a_hologram_for_the_king"><img src="images/hologram_king.jpg" height="250" width="250" alt="A Hologram for the King"></a>
+    <a href="https://www.rottentomatoes.com/m/jiro_dreams_of_sushi"><img src="images/jiro.jpg" height="250" width="250" alt="Jiro Dreams of Sushi"></a>
+    <a href="https://www.rottentomatoes.com/m/the_fundamentals_of_caring"><img src="images/fundamentals_caring.jpg" height="250" width="250" alt="The Fundamentals of Caring"></a>
+    <a href="https://www.rottentomatoes.com/m/the_invitation"><img src="images/the_invitation.jpg" height="250" width="250" alt="The Invitation"></a>
+    <a href="https://www.rottentomatoes.com/m/a_man_called_ove"><img src="images/man_called_ove.jpg" height="250" width="250" alt="A Man Called Ove"></a>
+    <a href="https://www.rottentomatoes.com/m/imperium"><img src="images/imperium.jpg" height="250" width="250" alt="Imperium"></a>
+    <a href="https://www.rottentomatoes.com/m/the_guest_2014"><img src="images/the_guest.jpg" height="250" width="250" alt="The Guest"></a>
+    <a href="https://www.rottentomatoes.com/m/krisha_2016"><img src="images/krisha.jpg" height="250" width="250" alt="Krisha"></a>
+    
+    <form action="success.html" method="post">
+    <fieldset>
+    <legend>Which of these movies have you seen?</legend>
+    <label> Name
+    <input type="text" name="name" placeholder="First and Last Name">
+    </label>
+    <label> Email address
+    <input type="email" name="email" placeholder="name@domain.com">
+    </label> 
+    <br>
+    <label>Select all that you have watched:
+    <input type="checkbox" name="movie"> The Hunt
+    <input type="checkbox" name="movie"> The Wave
+    <input type="checkbox" name="movie"> A Hologram for the King
+    <input type="checkbox" name="movie"> Jiro Dreams of Sushi
+    <input type="checkbox" name="movie"> The Fundamentals of Caring
+    <input type="checkbox" name="movie"> The Invitation
+    <input type="checkbox" name="movie"> A Man Called Ove
+    <input type="checkbox" name="movie"> Imperium
+    <input type="checkbox" name="movie"> The Guest
+    <input type="checkbox" name="movie"> Krisha
+    </label>
+    </fieldset>
+    <fieldset>
+      <input type="submit" name="submit" value="Send">
+    </fieldset>
+    </form>
+
 </body>
 </html>

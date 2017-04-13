@@ -1,5 +1,5 @@
 .container {
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
 }
 
@@ -21,10 +21,18 @@ p, ul, form {
 .movie-images img {
   width: 350px;
   height: 350px;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding: 35px 10px 35px 10px;
 }
 
 form {
   background-color: beige;
+}
+
+@media screen and (max-width: 1160px) {
+  .movie-images img {
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+    height: 450px;
+  }
 }

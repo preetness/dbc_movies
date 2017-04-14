@@ -1,0 +1,66 @@
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  padding-bottom: 45px;
+  padding-top: 45px;
+  text-align: center;
+}
+
+p, ul, form {
+  font-family: 'Arsenal', sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.movie-title {
+  font-family: 'Arsenal', sans-serif;
+  font-weight: bold;
+  padding-top: 15px;
+  vertical-align: top;
+}
+.movie-images img {
+  display: block;
+  height: 425px;
+  margin: 0 auto;
+  padding: 35px 10px 35px 10px;
+  width: 425px;
+}
+
+form {
+  background-color: beige;
+}
+
+legend {
+  font-variant: small-caps;
+  text-align: center;
+}
+
+a:visited {
+  color: red;
+}
+
+@media screen and (max-width: 1020px) {
+  .movie-images img {
+    display: block;
+    height: 350px;
+    margin: 0 auto;
+    width: 350px;
+  }
+  p, ul li {
+    width: 100%;
+  }
+
+  .container {
+    width: 98%;
+  }
+}
+
+
+

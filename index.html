@@ -4,6 +4,7 @@
     <title>Phase 0 2.5 Solo Challenge</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Arsenal:400,700|Oswald:400,600" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body>
     <main class="container">
@@ -17,31 +18,32 @@
       <li>It must have been released in the past 5 years</li>
     </ul>
 
-    <p>Here are the movies that made the cut:</p>
+    <p>Here are the movies that made the cut, in no specific order (click on a movie poster to go to its Rotten Tomatoes page):</p>
 
     <section class="movie-images">
-      <a href="https://www.rottentomatoes.com/m/the_hunt_2013"><img src="images/thehunt.jpg" alt="The Hunt"></a>
-      <a href="https://www.rottentomatoes.com/m/the_wave_2016"><img src="images/thewave.jpg" alt="The Wave"></a>
-      <a href="https://www.rottentomatoes.com/m/a_hologram_for_the_king"><img src="images/hologram_king.jpg" alt="A Hologram for the King"></a>
-      <a href="https://www.rottentomatoes.com/m/jiro_dreams_of_sushi"><img src="images/jiro.jpg" alt="Jiro Dreams of Sushi"></a>
-      <a href="https://www.rottentomatoes.com/m/the_fundamentals_of_caring"><img src="images/fundamentals_caring.jpg" alt="The Fundamentals of Caring"></a>
-      <a href="https://www.rottentomatoes.com/m/the_invitation"><img src="images/the_invitation.jpg" alt="The Invitation"></a>
-      <a href="https://www.rottentomatoes.com/m/a_man_called_ove"><img src="images/man_called_ove.jpg" alt="A Man Called Ove"></a>
-      <a href="https://www.rottentomatoes.com/m/imperium"><img src="images/imperium.jpg" alt="Imperium"></a>
-      <a href="https://www.rottentomatoes.com/m/the_guest_2014"><img src="images/the_guest.jpg" alt="The Guest"></a>
-      <a href="https://www.rottentomatoes.com/m/krisha_2016"><img src="images/krisha.jpg" alt="Krisha"></a>
+      <div class="movie-title">1. The Hunt</div><a href="https://www.rottentomatoes.com/m/the_hunt_2013"><img src="images/thehunt.jpg" alt="The Hunt"></a>
+      <div class="movie-title">2. The Wave</div><a href="https://www.rottentomatoes.com/m/the_wave_2016"><img src="images/thewave.jpg" alt="The Wave"></a>
+      <div class="movie-title">3. A Hologram for the King</div><a href="https://www.rottentomatoes.com/m/a_hologram_for_the_king"><img src="images/hologram_king.jpg" alt="A Hologram for the King"></a>
+      <div class="movie-title">4. Jiro Dreams of Sushi</div><a href="https://www.rottentomatoes.com/m/jiro_dreams_of_sushi"><img src="images/jiro.jpg" alt="Jiro Dreams of Sushi"></a>
+      <div class="movie-title">5. The Fundamentals of Caring</div><a href="https://www.rottentomatoes.com/m/the_fundamentals_of_caring"><img src="images/fundamentals_caring.jpg" alt="The Fundamentals of Caring"></a>
+      <div class="movie-title">6. The Invitation</div><a href="https://www.rottentomatoes.com/m/the_invitation"><img src="images/the_invitation.jpg" alt="The Invitation"></a>
+      <div class="movie-title">7. A Man Called Ove</div><a href="https://www.rottentomatoes.com/m/a_man_called_ove"><img src="images/man_called_ove.jpg" alt="A Man Called Ove"></a>
+      <div class="movie-title">8. Imperium</div><a href="https://www.rottentomatoes.com/m/imperium"><img src="images/imperium.jpg" alt="Imperium"></a>
+      <div class="movie-title">9. The Guest</div><a href="https://www.rottentomatoes.com/m/the_guest_2014"><img src="images/the_guest.jpg" alt="The Guest"></a>
+      <div class="movie-title">10. Krisha</div><a href="https://www.rottentomatoes.com/m/krisha_2016"><img src="images/krisha.jpg" alt="Krisha"></a>
     </section>
 
     <form action="success.html" method="post">
       <fieldset>
-      <legend>Which of these movies have you seen?</legend>
+      <legend>which of these movies have you seen?</legend>
         <label>Name</label>
         <input type="text" name="name" placeholder="First and Last Name">
-        
+        <br>
         <label>Email address</label>
         <input type="email" name="email" placeholder="name@domain.com">
-        
+        </fieldset>
         <br>
+        <fieldset>
         <label>Select all that you have watched:</label>
         <input type="checkbox" name="movie"> The Hunt
         <input type="checkbox" name="movie"> The Wave
@@ -59,7 +61,7 @@
         <input type="submit" name="submit" value="Send">
       </fieldset>
     </form>
-    <p><a href="http://www.rottentomatoes.com">Rotten Tomatoes</a> is a site that I use quite frequently to check scores from critics. To be honest, I don't particularly like the layout and design of the site. I feel that it is due for a refresh, in an effort to make it look less cluttered and busy. I think that the individual movie pages look good enough though, for the most part. </p>
+    <p><a href="http://www.rottentomatoes.com">Rotten Tomatoes</a> is a site that I use quite frequently to check scores from critics. To be honest, I don't particularly like the layout and design of the full site. I feel that it is due for a refresh, in an effort to make it look less cluttered and busy. I think that the individual movie pages look good enough though, for the most part. </p>
 
     <p>As far as the source code for the page, it is very heavy with Javascript, so I don't necessarily understand most of that section. The HTML tags though are familiar to me, and it's interesting to get in there and actually read it all.</p>
     </main>

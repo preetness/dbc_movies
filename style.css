@@ -4,6 +4,7 @@
 }
 
 h1 {
+
   font-family: 'Oswald', sans-serif;
   font-size: 50px;
   font-weight: bolder;
@@ -38,6 +39,7 @@ form {
 }
 
 legend {
+  color: red;
   font-variant: small-caps;
   text-align: center;
 }
